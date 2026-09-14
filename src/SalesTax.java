@@ -4,6 +4,5 @@ public class SalesTax {
     double itemPrice = 8.0;
     double salesTax = itemPrice * taxRate;
     System.out.println("The sales tax for the item is: "+salesTax);
-    System.out.println(System.getProperties());
   }
 }
